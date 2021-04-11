@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124">
+  <g id="Component_2_1" data-name="Component 2 – 1" transform="translate(1.5 1.5)">
+    <circle id="Ellipse_458" data-name="Ellipse 458" cx="60.5" cy="60.5" r="60.5" fill="none" stroke="#c9ccd3" stroke-width="3"/>
+    <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(9 9)">
+      <g id="Group_10647" data-name="Group 10647" transform="translate(-156 -138)">
+        <circle id="always_right_pexels-144x144-156_26-399_399" cx="51.5" cy="51.5" r="51.5" transform="translate(156 138)" fill="#5e6778" opacity="0.84"/>
+        <g id="_1214723" data-name="1214723" transform="translate(195 174)">
+          <path id="Path_14410" data-name="Path 14410" d="M50.617,22.62h3.532a.673.673,0,0,0,.673-.673V8.776l2.753,2.551a.672.672,0,0,0,.949-.035l2.449-2.626a.673.673,0,0,0-.034-.952L52.838.18a.673.673,0,0,0-.917,0l-8.1,7.536a.672.672,0,0,0-.033.952l2.455,2.626a.673.673,0,0,0,.949.034l2.755-2.551V21.948a.673.673,0,0,0,.673.673Zm0,0" transform="translate(-39.938)" fill="#fff"/>
+          <path id="Path_14411" data-name="Path 14411" d="M.673,316H24.218a.673.673,0,0,1,.673.673V320.2a.673.673,0,0,1-.673.673H.673A.673.673,0,0,1,0,320.2v-3.532A.673.673,0,0,1,.673,316Zm0,0" transform="translate(0 -289.427)" fill="#fff"/>
+        </g>
+        <text id="Max_weight:" data-name="Max weight:" transform="translate(207 164)" fill="#fff" font-size="10" font-family="Poppins-Regular, Poppins"><tspan x="-29.31" y="0">Max weight:</tspan></text>
+        <text id="_200kb" data-name="200kb" transform="translate(207 224)" fill="#fff" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="-21.154" y="0">200kb</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

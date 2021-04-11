@@ -1,0 +1,83 @@
+.card.custom-card {
+  padding: 20px;
+
+  .card-img {
+    height: 200px;
+  }
+
+  .name-tag {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 40px;
+
+    span {
+      font-size: 14px;
+      color: #06797F;
+      font-weight: 400;
+      background-color: #FFFFFF;
+      padding: 5px 20px;
+      border-radius: 8px;
+    }
+  }
+
+  .share-tag {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 170px;
+
+    span {
+      color: #00C4C0;
+      font-weight: 400;
+      background-color: #FFFFFF;
+      padding: 5px 10px;
+      border-radius: 8px;
+
+      .share-img {
+      }
+
+      .share-text{
+        padding-left: 5px;
+        font-size: 13px;
+      }
+
+      .share-count{
+        font-size: 15px;
+        color: #5E6778;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .card-body{
+    padding: 0.25rem;
+    .card-title{
+      font-size: 18px;
+      color: #5E6778;
+      font-weight: 600;
+    }
+    .card-text{
+      font-size: 15px;
+      color: #00C4C0;
+    }
+  }
+
+  .card-bottom{
+    background-color: #F7F8FA;
+    border-radius: 25px;
+    border: 1px solid #E2E4E8;
+    padding: 5px 0 5px;
+    span{
+      font-size: 15px;
+      color: #5E6778;
+    }
+    .col-md-3{
+      padding: 0;
+    }
+  }
+}

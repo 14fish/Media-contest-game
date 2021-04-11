@@ -1,0 +1,297 @@
+.upload-modal-container {
+    max-width: 200px;
+}
+
+.upload-media {
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 0 20px;
+        background-color: #EDF1F4;
+
+        .upload-media-item {
+            display: flex;
+            justify-self: space-between;
+
+            &-container {
+                display: flex;
+                justify-content: center;
+                background-color: #fff;
+                width: 70px;
+                height: 130%;
+                border-radius: 100%;
+                transform: translateY(-8px);
+                box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.10);
+                cursor: pointer;
+                transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+                &:hover {
+                    box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.20);
+                }
+
+                & > img {
+                    transform: scale(1.3);
+                    margin: 10px;
+                }
+
+                &:not(:last-child) {
+                    margin-right: 10px;
+                }
+
+            }
+            .upload-active {
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1;
+                    top: 30%;
+                    left: 30%;
+                    background-repeat: no-repeat;
+                }
+            }
+
+            .text-active {
+                background-color: #FB6FA1;
+
+                &::after {
+                    top: 35%;
+                    left: 37%;
+                    transform: scale(1.2);
+                    background-image: url('../../assets/icon/upload-text-active.svg');
+                }
+            }
+
+            .audio-active {
+                background-color: #BD25B4;
+
+                &::after {
+                    top: 34%;
+                    left: 35%;
+                    transform: scale(1.2);
+                    background-image: url('../../assets/icon/upload-audio-active.svg');
+                }
+            }
+
+            .image-active {
+                background-color: #FEA729;
+
+                &::after {
+                    top: 30%;
+                    left: 30%;
+                    transform: scale(1.2);
+                    background-image: url('../../assets/icon/upload-image-active.svg');
+                }
+            }
+
+            .video-active {
+                background-color: #E60A19;
+
+                &::after {
+                    top: 35%;
+                    left: 35%;
+                    transform: scale(1.2);
+                    background-image: url('../../assets/icon/upload-video-active.svg');
+                }
+            }
+        }
+    }
+
+    .upload-media-title {
+        text-align: center;
+        color: #19A8AB;
+    }
+
+}
+
+.modal-content {
+    width: 67%;
+    margin: 0 auto;
+}
+
+.upload-media-form-container {
+    margin: 0 20px;
+}
+
+.upload-media-form {
+    display: flex;
+    width: 100%;
+
+}
+
+.input-container {
+    position: relative;
+}
+
+.upload-form-number {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    background-color: #19A8AB;
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+}
+
+.upload-media-input {
+    width: 100%;
+    background-image: none;
+    outline: none;
+    border: 1px solid #1CB1D0;
+    padding: 10px 55px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #1CB1D0;
+
+    &::placeholder {
+        opacity: 0.7;
+        color: #1CB1D0;
+    }
+}
+
+.upload-media-btn {
+    width: 100%;
+    height: 50px;
+    background-color: #19A8AB;
+    color: white;
+    border-radius: 10px;
+    transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    margin-bottom: 25px;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+
+.upload-media-show-options {
+    width: 100%;
+    background-color: #19A8AB;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding: 5px 0;
+    margin: 20px 0;
+    transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+
+.upload-video {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.progress-bar-form {
+    position: absolute;
+    bottom: 23%;
+    right: 5px;
+    width: 88%;
+    height: 10px !important;
+    // opacity: 0.4;
+}
+
+.progress {
+    height: .7rem;
+}
+
+.progress-bar {
+    background-color: #19A8AB !important;
+}
+
+.custom-file input[type="file"] {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.progress-percentage {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    opacity: 0.7;
+}
+
+.upload-form-cancel-btn {
+    position: absolute;
+    top: 15%;
+    color: red;
+    right: 3%;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.img-video-upload, .youtube-link-upload {
+    position: absolute;
+    top: 1%;
+    right: 0;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.img-video-upload {
+    right: 44%;
+}
+
+.upload-video-icon {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+
+.pl-88 {
+    padding-left: 88px;
+}
+
+.upload-cancel {
+    transform: translateY(5px);
+}
+
+.upload-dropdown, .form-group {margin: 0 !important;}
+
+.custom-select {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 92%;
+    background-color: transparent;
+    box-shadow: none !important;
+    border: none;
+    padding-left: 11%;
+    padding-bottom: 2%;
+    color: #19A8AB;
+    font-size: 15px;
+    opacity: 0.9;
+
+    &:hover, &:active, &:focus {
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+}
+    .show > .btn-primary.dropdown-toggle {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        box-shadow: none !important;
+    }
+
+.dropdown-menu {
+    width: 100%;
+}

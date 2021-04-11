@@ -1,0 +1,308 @@
+.profile-page {
+    background-color: #fff;
+    min-height: 100vh;
+    max-width: 85%;
+    margin: 40px auto;
+    border-radius: 8px;
+    padding-top: 1px;
+    position: relative;
+
+    &-edit-settings {
+        position: absolute;
+        background-color: #5E6778;
+        top: 30px;
+        right: 30px;
+        color: white;
+        padding: 7px 17px;
+        border-radius: 10px;
+        transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+        text-decoration: none;
+
+        & > img {
+            margin-right: 10px;
+        }
+
+        &:hover {
+            transform: scale(1.03);
+            text-decoration: none;
+            color: white;
+        }
+
+    }
+
+    &--info {
+        background: #F7F8FA;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0 15px 20px 15px;
+
+        &-profile-pic {
+
+            .pic-active {
+                margin-top: -3.6rem;
+            }
+
+            h1 {
+                font-size: 15px;
+                font-weight: normal;
+            }
+
+            span, p {
+                opacity: 0.7;
+                font-weight: lighter;
+            }
+
+            p {
+                margin-bottom: 20px;
+            }
+        }
+
+        &-game-info {
+            display: flex;
+            justify-content: space-between;
+
+            .profile-page-like-coins, .profile-page-loc-date {
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid #D9DBE0;
+                border-radius: 10px;
+                width: 100%;
+                background-color: #fff;
+            }
+
+            .profile-page-like, 
+            .profile-page-coins, 
+            .profile-page-loc, 
+            .profile-page-date{
+                display: flex;
+                justify-content: space-between;
+                padding: 15px;
+                align-items: center;
+            }
+
+            .profile-page-like-info>p,
+            .profile-page-loc-info>p,
+            .profile-page-date-info>p,
+            .profile-page-coins-info>p {
+                padding: 0;
+                margin: 0;
+            }
+
+            .profile-page-like-icon, .profile-page-loc-icon {
+                margin-right: 5px;
+            }
+
+            .profile-page-coins-icon, .profile-page-date-icon {
+                margin-left: 5px;
+            }
+
+            .profile-page-like-info-number, 
+            .profile-page-coins-info-number {
+                color: #0F797F;
+                font-weight: bold;
+            }
+
+            .profile-page-like-info-text, 
+            .profile-page-coins-info-text,
+            .profile-page-date-info-text,
+            .profile-page-loc-info-city {
+                color: #30C6C8;
+                line-height: 10px;
+            }
+
+            .profile-page-loc-info-city {
+                font-size: 10px;
+                text-align: left;
+            }
+
+            .profile-page-coins-info-text {
+                font-size: 12px;
+            }
+
+            .profile-page-date-info-date {
+                font-size: 16px;
+            }
+
+            .profile-page-date-info-text {
+                font-size: 10px;
+            }
+
+            .profile-page-convert-coins {
+                margin: 20px 0px;
+                font-size: 13px;
+                background-color: #30C6C8;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+                &:hover {
+                    transform: scale(1.06);
+                }
+            }
+
+        }
+    }
+
+    &-level {
+        background-color: #21C3C5;
+        border-radius: 10px;
+        color: #fff;
+        margin: 0 20px;
+        padding: 10px 50px;
+    }
+
+    &--friend {
+        border: 1px solid #D9DBE0;
+        border-radius: 10px;
+        width: 100%;
+        background-color: #fff;
+        padding: 15px;
+        margin-top: 15px;
+
+
+        &--info {
+            display: flex;
+            justify-content: space-between;
+
+            &-friend {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                img {
+                    padding-left: 5px;
+                }
+
+                &-text {
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    font-weight:600;
+                    color: #5E6778;
+                    font-size: 18px;
+                }
+
+                &-number {
+                    color: #1FC4C0;
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+            }
+
+
+        }
+        
+        &--friend-request > button{
+            background-color: #1FC4C0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 20px;
+            font-weight: 500;
+            transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        &-friend-list {
+            margin-top: 10px;
+            text-align: left;
+            width: 100%;
+            overflow: hidden;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+
+            &-img:not(:last-child) {
+                margin: 0 4px;
+            }
+
+            &-img:first-child {
+                margin-left: 0;
+            }
+
+            .friend-slider-btn {
+                margin-left: 13px;
+                cursor: pointer;
+                transition: all .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+
+    .profile-page-nav {
+
+        .profile-page-nav-items {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-top: 20px;
+            text-align: center;
+            max-width: 80%;
+            margin: auto;
+
+            &-link {
+                display: flex;
+                justify-content: space-between;
+                transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+                & > a {
+                    color: #5E6778;
+                    font-weight: lighter;
+                    text-decoration: none;
+                }
+
+                .nav-item-count {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #5E6778;
+                    margin-left: 5px;
+                    height: 25px;
+                    width: 25px;
+                    border-radius: 100%;
+                    font-size: 13px;
+                    color: white;
+                }
+            }
+
+            .profile-page-nav-active {
+                position: relative;
+                transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+                & > a {
+                    color: #0F797F;
+                }
+
+                .nav-item-count {
+                    background-color: #2ADFB4;
+                }
+
+                & > a::before {
+                    content: "";
+                    position: absolute;
+                    height: 3px;
+                    width: calc(100% + 40px);
+                    text-align: center;
+                    background-color: #0F797F;
+                    bottom: -12px;
+                    left: -23px;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        &-line {
+            height: 1px;
+            width: 100%;
+            background-color: #D9DBE0;
+            margin-top: 10px;
+        }
+    }
+}

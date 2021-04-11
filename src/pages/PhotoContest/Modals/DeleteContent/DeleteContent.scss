@@ -1,0 +1,51 @@
+.change-content-title {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 20px;
+
+    .delete-title {
+        color: white;
+        font-size: 22px;
+        vertical-align: middle;
+        padding-top: 10px;
+    }
+
+    .delete-cancel{
+        transition: all .2s cubic-bezier(0.4, 0.03, 0.685, 0.22);
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.delete-content {
+    text-align: center;
+    color: #5E6778;
+
+    .delete-content {
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+}
+.delete-modal-btn {
+    background-color: red;
+    transition: all .2s cubic-bezier(0.4, 0.03, 0.685, 0.22);
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+        background-color: red;
+        transform: scale(1.02);
+    }
+    
+    .delete-icon {
+        position: absolute;
+        left: 15px;
+    }
+}

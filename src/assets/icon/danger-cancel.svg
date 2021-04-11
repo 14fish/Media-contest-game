@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="87" viewBox="0 0 87 87">
+  <defs>
+    <filter id="Ellipse_456" x="1.5" y="1.5" width="84" height="84" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#3a436a" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_6_1" data-name="Component 6 – 1" transform="translate(2 2)">
+    <g id="Ellipse_415" data-name="Ellipse 415" fill="#fea701" stroke="red" stroke-width="2">
+      <circle cx="41.5" cy="41.5" r="41.5" stroke="none"/>
+      <circle cx="41.5" cy="41.5" r="42.5" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -2, -2)" filter="url(#Ellipse_456)">
+      <g id="Ellipse_456-2" data-name="Ellipse 456" transform="translate(9 9)" fill="red" stroke="#f8f8f8" stroke-width="2">
+        <circle cx="34.5" cy="34.5" r="34.5" stroke="none"/>
+        <circle cx="34.5" cy="34.5" r="33.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_10468" data-name="Group 10468" transform="translate(21.736 41.907) rotate(-45)">
+      <path id="Union_13" data-name="Union 13" d="M12.043,26.166V15.536H1.412a1.412,1.412,0,1,1,0-2.824H12.043V1.412a1.412,1.412,0,0,1,2.824,0v11.3h11.3a1.412,1.412,0,1,1,0,2.824h-11.3v10.63a1.412,1.412,0,0,1-2.824,0Z" transform="translate(0.473 -0.101)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

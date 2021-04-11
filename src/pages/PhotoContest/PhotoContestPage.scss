@@ -1,0 +1,69 @@
+.profile-page-battle {
+    border: 2px solid red;
+    border-top-left-radius: 0;
+}
+
+.profile-page {
+    margin-top: 60px;
+}
+
+.at-the-battle-contest {
+    display: none;
+    position: absolute;
+    background-color: red;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    top: -45px;
+    left: -2px;
+    padding: 10px;
+    color: white;
+}
+
+.photo-contest-container {
+
+    .header {
+        
+        &-pic {
+            margin-top: -30px;
+            width: 92%;
+            position: relative;
+        }
+
+        .photo-contest-interactions {
+            border: 1px solid #E2E4E8;
+            width: 40%;
+            background-color: #F7F8FA;
+            border-radius: 15px;
+            margin-top: -14px;
+            position: absolute;
+            display: flex;
+            left: 30%;
+        }
+
+        .photo-contest-info-pic {
+            position: absolute;
+            transform: scale(0.8);
+            top: 100px;
+            right: 19px;
+            cursor: pointer;
+        }
+    }
+
+    .photo-contest-title {
+        color: #5E6778;
+        font-size: 21px;
+    }
+
+    .photo-contest-desc {
+        color: #30C6C8;
+        font-size: 16px;
+    }
+
+    .post-contest-content {
+        margin: 0 25px;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 10px;
+    }
+}
+

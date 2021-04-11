@@ -1,0 +1,33 @@
+@import "../../styles.scss";
+
+.container {
+  position: relative;
+  width: 356px;
+}
+
+.imgWrapper {
+  background-color: $color-green;
+  border-color: $color-green;
+  border-radius: 9px;
+}
+
+.input, .form-control {
+  height: 50px;
+  color: $color-green;
+  font-size: 15px;
+  border-color: $color-green;
+  border-radius: 9px;
+
+  &::-webkit-input-placeholder {
+    color: $color-green;
+  }
+
+  &::-ms-input-placeholder {
+    color: $color-green;
+  }
+
+  &::-ms-input-placeholder {
+    color: $color-green;
+  }
+}
+

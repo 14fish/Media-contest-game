@@ -1,0 +1,256 @@
+$color-gray-launch: #EDF1F4;
+
+
+.dashboard-content {
+  margin: 25px 0;
+
+  .title {
+    .title-first {
+      font-size: 24px;
+      font-weight: 300;
+      color: #5E6778;
+    }
+
+    .title-second {
+      font-size: 24px;
+      font-weight: 600;
+      color: #5E6778;
+    }
+
+    .description {
+      color: #30C6C8;
+      font-weight: 300;
+      font-size: 18px;
+
+      &-battle {
+        color: red;
+      }
+    }
+  }
+
+  .dashboard-wrapper {
+    padding: 30px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    position: relative;
+
+    &--battle {
+      border: 3px solid red;
+      border-top-left-radius: 0;
+    }
+    
+    .you-are-at-battle {
+      display: none;
+      position: absolute;
+      background-color: red;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      top: -45px;
+      left: -3px;
+      padding: 10px;
+      color: white;
+    }
+
+    .launch-choose-area {
+      width: 100%;
+      position: relative;
+      height: 175px;
+      background-color: #EDF1F4;
+      border-radius: 5px;
+      margin-bottom: 70px;
+      border: 10px solid #EDF1F4;
+      outline: 1px dashed #fff;
+      outline-offset: -10px;
+
+      .description {
+        font-size: 18px;
+        color: #5E6778;
+        margin-top: 55px;
+      }
+
+      .launch-btn-wrapper {
+        z-index: 999;
+        padding-top: 30px;
+        position: relative;
+
+        .danger-cancel {
+          display: none;
+          position: absolute;
+          top: 30%;
+          left: 0;
+        }
+      }
+
+      .col-md-1 {
+        padding-top: 30px;
+
+
+        small {
+          color: #5E6778;
+        }
+
+        .launch-choose-btn {
+          width: 60px;
+          height: 60px;
+          border-radius: 30px;
+          background-color: #FFFFFF;
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .btn-wrapper {
+        margin-top: 10px;
+        height: 80px;
+        width: 80px;
+        background-color: #06797F;
+        border-radius: 40px;
+        border: 2px solid #01A8AB;
+
+        .launch-exit-btn {
+          margin-top: 3px;
+          width: 70px;
+          height: 70px;
+          border-radius: 35px;
+          background-color: #01A8AB;
+          border: 2px solid #FFFFFF;
+        }
+      }
+    }
+
+    .launch-btn-area {
+      width: 100%;
+      position: relative;
+      height: 38px;
+      background-color: #EDF1F4;
+      border-radius: 5px;
+
+      .tooltip > .tooltip-inner {
+        background-color: #01A8AB;
+        margin-right: 8px
+      }
+
+      .bs-tooltip-left .arrow::before {
+        left: 0;
+        margin-left: -8px;
+        border-left-color: #01A8AB;
+      }
+
+      .btn-wrapper {
+        margin: -20px 0 0;
+        height: 80px;
+        width: 80px;
+        background-color: #06797F;
+        border-radius: 40px;
+        border: 2px solid #01A8AB;
+
+        .launch-btn {
+          margin-top: 3px;
+          width: 70px;
+          height: 70px;
+          border-radius: 35px;
+          background-color: #01A8AB;
+          border: 2px solid #FFFFFF;
+        }
+      }
+    }
+
+    .card-area {
+      padding: 20px;
+      width: 100%;
+      margin-top: 30px;
+      background-color: #F7F8FA;
+      border-radius: 5px;
+
+      .nav-tabs {
+        padding: 0 20px;
+
+        .nav-item {
+
+          &-battle {
+            color: red !important;
+          }
+
+          &.active-link {
+            .nav-link {
+              background-color: #2ADFB4;
+              border-radius: 10px;
+              color: #FFFFFF;
+            }
+
+            .active-link-battle {
+              background-color: red !important;
+            }
+          }
+
+          .nav-link.active {
+            font-size: 18px;
+            border-color: transparent transparent #01A8AB;
+            border-bottom: 2px solid;
+            background-color: transparent;
+            color: #01A8AB;
+            font-weight: 600;
+          }
+
+          .nav-link {
+            font-size: 17px;
+            color: #5E6778;
+            font-weight: 400;
+          }
+        }
+      }
+
+    }
+  }
+
+}
+
+
+// CARD
+
+.card-text-battle {
+  color: red !important;
+}
+
+.people-battle, .sword-battle {
+  display: none;
+  position: absolute;
+  left: 9%;
+}
+
+.view-battle, .like-battle {
+  display: none;
+  position: absolute;
+  right: 4%;
+}
+
+
+
+// InnerLayout
+
+.menu-text-battle {
+  color: red !important;
+}
+
+.level-active {
+  background-color: red !important;
+}
+
+.invite-friends-battle > button {
+  border: none;
+  background-color: #FEA729 !important;
+}
+
+.hall-of-fame-battle > button {
+  border: none;
+  background-color: red !important;
+}
+
+.profile-btn-battle > button,
+.themes-btn-battle > a > button ,
+.how-it-works-btn-battle > a > button
+{
+  color: red !important;
+}

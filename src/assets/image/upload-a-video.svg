@@ -1,0 +1,11 @@
+<svg id="Component_10_1" data-name="Component 10 – 1" xmlns="http://www.w3.org/2000/svg" width="219" height="43" viewBox="0 0 219 43">
+  <g id="Component_9_1" data-name="Component 9 – 1">
+    <rect id="Rectangle_1193" data-name="Rectangle 1193" width="219" height="43" rx="9" fill="#01a8ab"/>
+  </g>
+  <text id="Upload_a_Video" data-name="Upload a Video" transform="translate(38 20)" fill="#fff" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Upload a Video</tspan></text>
+  <text id="MP4_MOV_AVI" data-name="MP4, MOV, AVI" transform="translate(38 35)" fill="#c9e9eb" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">MP4, MOV, AVI</tspan></text>
+  <g id="Group_10977" data-name="Group 10977" transform="translate(-83 -423)">
+    <path id="Path_14410" data-name="Path 14410" d="M49,17.406h2.718a.518.518,0,0,0,.518-.518V6.753l2.119,1.963a.517.517,0,0,0,.73-.027l1.884-2.02a.518.518,0,0,0-.026-.732L50.71.138a.518.518,0,0,0-.705,0l-6.235,5.8a.517.517,0,0,0-.026.733L45.634,8.69a.518.518,0,0,0,.73.026l2.12-1.963V16.889a.518.518,0,0,0,.518.518Zm0,0" transform="translate(51.811 432.007)" fill="#fff"/>
+    <path id="Path_14411" data-name="Path 14411" d="M.518,316H18.636a.518.518,0,0,1,.518.518v2.718a.518.518,0,0,1-.518.518H.518A.518.518,0,0,1,0,319.235v-2.718A.518.518,0,0,1,.518,316Zm0,0" transform="translate(92.594 136.454)" fill="#fff"/>
+  </g>
+</svg>

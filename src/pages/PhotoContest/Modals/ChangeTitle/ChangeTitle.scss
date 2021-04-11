@@ -1,0 +1,52 @@
+.change-content-title {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 20px;
+
+    .change-title {
+        color: white;
+        font-size: 22px;
+        vertical-align: middle;
+        padding-top: 10px;
+    }
+
+    .change-cancel{
+        transition: all .2s cubic-bezier(0.4, 0.03, 0.685, 0.22);
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.change-content {
+    text-align: center;
+    color: #5E6778;
+
+    &-input {
+        width: 95%;
+        border: 1px solid #5E6778;
+        border-radius: 8px;
+        margin: 20px 0 20px 14px;
+        padding: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        outline: none;
+    }
+}
+.change-modal-btn {
+    background-color: red;
+    transition: all .2s cubic-bezier(0.4, 0.03, 0.685, 0.22);
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+        background-color: red;
+        transform: scale(1.02);
+    }
+}

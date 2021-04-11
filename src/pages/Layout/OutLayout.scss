@@ -1,0 +1,92 @@
+.auth-wrapper {
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../assets/image/Out.png");
+  height: 100vh;
+}
+
+.outBox {
+  background: #ffffff;
+  width: 750px;
+  height: 100vh;
+  float: left;
+
+}
+
+.smallLogo {
+  flex: 1;
+  justify-content: center;
+}
+
+.infoBox {
+  position: relative;
+  height: 100vh;
+  float: right;
+  width: calc(100% - 750px);
+}
+
+.bigLogo {
+  flex: 1;
+  justify-content: center;
+  padding: 80px 0 100px;
+}
+
+.copyright {
+  position: absolute;
+  font-size: 16px;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.textArea {
+  padding: 20px 0 20px 0;
+}
+
+.textAreaFirst {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 200;
+
+  .second {
+    font-weight: 400;
+  }
+}
+
+.textAreaSecond {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.boxArea {
+  padding: 40px;
+}
+
+.box {
+  .card {
+    padding: 30px 0;
+    border-radius: 10px;
+    height: 210px;
+  }
+
+  .boxIcon {
+    padding: 15px 0;
+  }
+
+  .boxTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1A9D9F;
+  }
+
+  .boxDescription {
+    font-size: 16px;
+    color: #2ADFB4;
+    line-height: 1em;
+    height: 18px;
+  }
+}

@@ -1,0 +1,17 @@
+<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="116" height="115" viewBox="0 0 116 115">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(6,121,127,0.77);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_11626" data-name="Group 11626">
+    <path id="Path_16155" data-name="Path 16155" class="cls-1" d="M10,0h96a10,10,0,0,1,10,10v95a10,10,0,0,1-10,10H10A10,10,0,0,1,0,105V10A10,10,0,0,1,10,0Z"/>
+  </g>
+  <path id="Path_14427" data-name="Path 14427" class="cls-2" d="M261.224,583.9a8.885,8.885,0,0,0,5.527-8.216v-.437a8.881,8.881,0,0,0-8.871-8.871h-12.9V569.8h12.9a5.453,5.453,0,0,1,5.447,5.447v.437a5.453,5.453,0,0,1-5.447,5.447h-2.5l1.677,2.611h0l11.094,17.272h4.07Z" transform="translate(-199.984 -526.377)"/>
+</svg>

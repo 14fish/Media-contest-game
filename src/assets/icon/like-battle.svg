@@ -1,0 +1,8 @@
+<svg id="Group_10342" data-name="Group 10342" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <circle id="Ellipse_437" data-name="Ellipse 437" cx="14" cy="14" r="14" fill="#a50508"/>
+  <g id="Ellipse_438" data-name="Ellipse 438" transform="translate(1 1)" fill="red" stroke="#fbfbfb" stroke-width="1">
+    <circle cx="13" cy="13" r="13" stroke="none"/>
+    <circle cx="13" cy="13" r="12.5" fill="none"/>
+  </g>
+  <path id="heart" d="M12.614,1.193A3.684,3.684,0,0,0,9.873,0,3.447,3.447,0,0,0,7.721.743a4.4,4.4,0,0,0-.87.909A4.4,4.4,0,0,0,5.98.743,3.446,3.446,0,0,0,3.828,0a3.684,3.684,0,0,0-2.74,1.193A4.282,4.282,0,0,0,0,4.117,5.1,5.1,0,0,0,1.359,7.455a28.974,28.974,0,0,0,3.4,3.193c.471.4,1.006.857,1.56,1.342a.8.8,0,0,0,1.059,0c.555-.485,1.089-.941,1.561-1.342a28.958,28.958,0,0,0,3.4-3.192A5.1,5.1,0,0,0,13.7,4.117a4.282,4.282,0,0,0-1.087-2.924Zm0,0" transform="translate(6.901 9.185)" fill="#fbfbfb"/>
+</svg>
